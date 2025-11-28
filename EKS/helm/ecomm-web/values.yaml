@@ -28,6 +28,9 @@ psp:
 podAnnotations: {}
 podLabels: {}
 
+redis:
+  storageClassName: gp2
+  
 podSecurityContext: {}
   # fsGroup: 2000
 
